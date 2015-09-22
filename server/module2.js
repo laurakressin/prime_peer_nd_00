@@ -1,6 +1,6 @@
 var usd = function(num) {
-    var strNum = parseFloat(num);
-    return dollar = "$"+(strNum.toFixed(2));
+    var strNum = num.toFixed(2);
+    return dollar = "$"+strNum;
 };
 
 module.exports = usd;
