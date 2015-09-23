@@ -8,8 +8,8 @@ http.createServer(function(request, response){
     //response.write('hello world');
     //response.write(one());
     //response.write(two());
-    response.write(three.calldollars);
-    response.write(three.callstatement);
+    response.write(three.callstatement());
+    response.write(three.calldollars());
     response.end();
 }).listen(3000);
 

@@ -1,6 +1,6 @@
 var usd = function(num) {
-    var strNum = num.toFixed(2);
-    return dollar = "$"+strNum;
+    var dollarAmt = (num/100).toFixed(2);
+    return dollarAmt = "$" + dollarAmt;
 };
 
 module.exports = usd;
